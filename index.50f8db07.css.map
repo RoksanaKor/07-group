@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["index.50f8db07.css","src/css/hero.css","src/css/styles.css"],"sourcesContent":[".hero {\n  background-color: #7fffd4;\n}\n\n\n\n/*# sourceMappingURL=index.50f8db07.css.map */\n",".hero {\r\n background-color: aquamarine;\r\n}","@import url(\"./hero.css\");"],"names":[],"version":3,"file":"index.50f8db07.css.map"}
