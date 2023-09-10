@@ -1,4 +1,4 @@
-# parcel-project-template
+cd# parcel-project-template
 
 ## Zalezności
 
