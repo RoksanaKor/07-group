@@ -1,0 +1,84 @@
+:root {
+  font-family: Monsterrat;
+  --color-background: #84a178;
+  --color-default: #f8d24e;
+  --color-hover: #0a8817;
+  --color-disabled: #ababab;
+  --color-modal-chocolate-ice-cream: #9cbe8f;
+  --color-font-dark: #131313;
+  --color-font-bright: #fcfcfc;
+  --color-body-1: #aec6a5;
+  --color-body-2: #efd478;
+  --color-body-3: #d6936d;
+  --color-inactive-slider: #d9d9d9;
+  --color-form-background: rgba(248, 210, 78, 0.1);
+}
+
+.contacts-container {
+  width: 320px;
+}
+.contacts-contacts {
+  background-color: var(--color-background);
+}
+.contacts-cities {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: -349px; */
+  list-style: none;
+  gap: 16px;
+  padding: 0;
+}
+.contacts-cards-cities {
+  display: flex;
+  background-color: var(--color-font-bright);
+  border-radius: 20px;
+  width: 280px;
+  height: 412px;
+  margin: auto;
+}
+.contacts-list-cities {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: auto;
+}
+.contacts-fake-btns-cities {
+  font-family: sans-serif;
+  display: inline-flex;
+  box-sizing: content-box;
+  border: none;
+  background-color: var(--color-default);
+  padding: 4px 22px;
+  border-radius: 5px;
+  margin-inline: 0 auto;
+  margin-bottom: 20px;
+}
+.contacts-list-city {
+  padding: 0;
+}
+.contacts-city {
+  font-family: sans-serif;
+  list-style: none;
+  color: var(--color-font-dark);
+}
+.contacts-address {
+  font-family: sans-serif;
+  list-style: none;
+  color: var(--color-body-3);
+}
+.contacts-opn-cls {
+  font-family: sans-serif;
+  list-style: none;
+  color: (--color-font-dark);
+}
+.contacts-links {
+  list-style: none;
+}
+.contacts-link {
+  font-family: sans-serif;
+  color: var(--color-font-dark);
+  text-decoration: none;
+}
+.contacts-btns {
+  list-style: none;
+}
