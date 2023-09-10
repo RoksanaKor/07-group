@@ -1,4 +1,4 @@
-body {
+.about-body {
   background-color: #84a178;
   letter-spacing: 0.04em;
   color: var(--color-font-dark);
@@ -17,25 +17,20 @@ ul {
   margin: 0;
   padding: 0;
 }
-img {
+.about-img {
   max-width: 100%;
   height: auto;
   display: block;
 }
-p {
+.about-p {
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-div {
-  display: block;
-}
-ul {
-  list-style: none;
-}
-.title {
+
+.about-title {
   max-width: 200px;
   color: #fcfcfc;
   margin: 0 auto 35px;
@@ -56,7 +51,7 @@ ul {
   font-size: 3rem;
   line-height: 1.27;
 }
-.container {
+.about-container {
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -109,7 +104,7 @@ ul {
   gap: 5px;
   display: flex;
 }
-.btn {
+.about-btn {
   color: #131313;
   cursor: pointer;
   border: 2px solid rgba(0, 0, 0, 0);
