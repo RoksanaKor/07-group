@@ -1,0 +1,166 @@
+ul {
+  list-style: none;
+}
+
+.advantages {
+  background-color: #84a178;
+  width: 100%;
+}
+
+.advantages-title {
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  padding-bottom: 23px;
+}
+
+.advantages-text {
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%;
+  padding-bottom: 16px;
+}
+
+.advantages-title,
+.advantages-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages-container {
+  max-width: 428px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------ MOBILE ------ */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .advantages-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .advantages-title,
+  .advantages-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages-list > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .advantages-cow,
+  .advantages-weight,
+  .advantages-ice-cream {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .advantages-title {
+    margin-bottom: 10px;
+  }
+  .advantages-text {
+    margin-bottom: 20px;
+  }
+}
+
+/* ------ MOBILE ------ */
+@media screen and (max-width: 480px) {
+  .advantages-container {
+    max-width: 428px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .advantages-title,
+  .advantages-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages-list > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .advantages-cow,
+  .advantages-weight,
+  .advantages-ice-cream {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .advantages-title {
+    margin-bottom: 10px;
+  }
+  .advantages-text {
+    margin-bottom: 20px;
+  }
+}
+
+/* ------ MOBILE ------ */
+@media (min-width: 481px) and (max-width: 767px) {
+  .adantages-container {
+    max-width: 428px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  .advantages-title,
+  .advantages-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .advantages-list > ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .advantages-cow,
+  .advantages-weight,
+  .advantages-ice-cream {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .advantages-title {
+    margin-bottom: 10px;
+  }
+  .advantages-text {
+    margin-bottom: 20px;
+  }
+}
+
+/* ------ TABLET ------ */
+/* @media (min-width: 768px) and (max-width: 1199px) {
+  .adantages-container {
+    max-width: 768px;
+  }
+} */
+
+/* ------ DESKTOP ------ */
+/* @media (min-width: 1200px) {
+  .advantages-container {
+    max-width: 1200px;
+  }
+} */
