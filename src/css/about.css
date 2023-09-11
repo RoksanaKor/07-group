@@ -68,14 +68,14 @@ ul {
   padding-right: 30px;
   display: flex;
 }
-.about-content {
-  .about__content {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    display: flex;
-  }
+
+.about_content {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  display: flex;
 }
+
 .about_paragraph {
   color: #fcfcfc;
   font-size: 1.2rem;
@@ -121,4 +121,11 @@ ul {
   background-color: #f8d24e;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* modal */
+.about_modal-video {
+  max-width: 448px;
+  max-height: 205px;
+  min-width: 224dp;
+  min-height: 199dp;
 }
