@@ -31,7 +31,18 @@
     
     }
     
-
+    .js-menu-container {
+        display: none;
+       }
+       .js-menu-container.is-open {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-font-bright);
+       }
+       .js-open-menu {
+        stroke: black;
+        fill: black;
+       }
 
 
 @media screen and (min-width:768px){
