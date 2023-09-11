@@ -1,33 +1,65 @@
 <header>
     <div class="header-container">
-        <svg>
+        <div class="header-wrapper">
+            <div class="header-wrapper-logo">
+
+        <svg class="header-logo-ice-cream" width="22.32px" height= "44.17px">
          <use href="./images/icons.svg#icon-Vector-1"></use>
      </svg>
-     <p>CE</p>
-     <button
-     type="button"
-     class="menu-toggle js-open-menu"
-     aria-expanded="false"
-     aria-controls="mobile-menu">
-
-     <svg class="menu-toggle-button" width="40" height="40">
-    <use href="./images/icons.svg#icon-charm_menu-hamburger-1"></use></svg>
-</button>
+     <span class="header-logo">ce</span>
+    </div>
+    <button
    
+    class="menu-toggle js-open-menu"
+    aria-expanded="false"
+    aria-controls="mobile-menu">
 
-     <nav class="navigation">
-         <ul class="nav-description">
+    <div class="header-menu-toggle-button"><svg  width="32" height="32">
+   <use href="./images/icons.svg#icon-charm_menu-hamburger-1"></use></svg></div>
+</button>
+  
+    
+</div>
+
+     <nav class="header-navigation">
+         <ul class="header-nav-description">
              <li>
-         <a class="nav-button">Home</a></li>
+         <a class="-button">Home</a></li>
          <li>
-         <a class="nav-button"> How it's made?</a></li>
+         <a class="header-nav-button"> How it's made?</a></li>
          <li>
-         <a class="nav-button">Our products</a></li>
+         <a class="header-nav-button">Our products</a></li>
          <li>
-         <a class="nav-button">Contact</a></li>
+         <a class="header-nav-button">Contact</a></li>
      </ul>
      </nav>
     
-     <button class="buy-now" type="button">Buy now</button>  
+     <button class="header-buy-now" type="button">Buy now
+        <svg class="header-arrow" width="12" height="12">
+            <use href="./images/icons.svg#icon-ep_arrow-right-bold"></use>
+          </svg>
+     </button>  
  </div>   
 </header>
+
+<div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+      <button class="button-modal" data-modal-close>
+        <svg width="8" height="8">
+        <use href="./images/icons.svg#icon-Vector-2"></use>
+      </svg>
+    </button>
+    <nav >
+        <ul class="header-hamburger">
+            <li>
+        <a class="header-hamburger-button">Home</a></li>
+        <li><span>
+        <a class="header-hamburger-button-w"> How it's made?</a></span></li>
+        <li>
+        <a class="header-hamburger-button">Our products</a></li>
+        <li>
+        <a class="header-hamburger-button">Contact</a></li>
+    </ul>
+    </nav>
+</div>
+<script src="./index.js"></script>
