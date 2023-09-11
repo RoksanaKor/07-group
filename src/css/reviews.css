@@ -1,0 +1,138 @@
+.customer-reviews {
+    position: relative;
+    margin: auto;
+}
+
+.customer-reviews-customer {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.customer-reviews-ractangle {
+    width: 280px;
+    height: 256px;
+    border-radius: 10px;
+    background: #84A178;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+.customer-reviews-text {
+    padding: 35px 39px;
+    color: #FCFCFC;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 255%;
+    font-weight: normal;
+}
+
+.customer-reviews-name {
+    color: #131313;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 186%;
+    padding-top: 32px;
+    margin: 0;
+}
+
+.customer-reviews-block:not(:first-child) {
+    display: none;
+}
+
+#page1:checked~.customer-reviews .customer-reviews-block:nth-child(1),
+#page2:checked~.customer-reviews .customer-reviews-block:nth-child(2),
+#page3:checked~.customer-reviews .customer-reviews-block:nth-child(3) {
+    display: block;
+}
+
+
+.slideshow-pagination {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.pagination-input {
+    display: none;
+}
+
+.pagination-label {
+    cursor: pointer;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.pagination-input:checked+.pagination-label {
+    background-color: #84A178;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .customer-reviews {
+        padding-top: 100px;
+    }
+
+    .customer-reviews-ractangle {
+        width: 705px;
+        height: 138px;
+        border-radius: 24px;
+    }
+
+    .customer-reviews-text {
+        padding: 28px 80px;
+        color: #FCFCFC;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        line-height: 255%;
+        font-weight: normal;
+    }
+
+    .customer-reviews-name {
+        font-size: 16px;
+    }
+
+    .slideshow-pagination {
+        margin-top: 32px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .customer-reviews-ractangle {
+        width: 968px;
+        height: 138px;
+        border-radius: 24px;
+    }
+
+    .customer-reviews-text {
+        padding: 43px 109px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 186%;
+        letter-spacing: 0.64px;
+    }
+
+    .customer-reviews-name {
+        font-size: 16px;
+    }
+
+    .slideshow-pagination {
+        margin-top: 32px;
+    }
+
+}
