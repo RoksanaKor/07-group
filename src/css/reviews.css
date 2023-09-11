@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .customer-reviews {
     position: relative;
     margin: auto;
@@ -17,7 +21,7 @@
     width: 280px;
     height: 256px;
     border-radius: 10px;
-    background: #84A178;
+    background: var(--color-background);
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -27,7 +31,7 @@
 
 .customer-reviews-text {
     padding: 35px 39px;
-    color: #FCFCFC;
+    color: var(--color-font-bright);
     text-align: center;
     font-family: 'Montserrat';
     font-size: 12px;
@@ -36,7 +40,7 @@
 }
 
 .customer-reviews-name {
-    color: #131313;
+    color: var(--color-font-dark);
     text-align: center;
     font-family: Montserrat;
     font-size: 20px;
@@ -46,38 +50,11 @@
     margin: 0;
 }
 
-.customer-reviews-block:not(:first-child) {
-    display: none;
-}
-
-#page1:checked~.customer-reviews .customer-reviews-block:nth-child(1),
-#page2:checked~.customer-reviews .customer-reviews-block:nth-child(2),
-#page3:checked~.customer-reviews .customer-reviews-block:nth-child(3) {
-    display: block;
-}
-
-
-.slideshow-pagination {
-    text-align: center;
-    margin-top: 12px;
-}
-
-.pagination-input {
-    display: none;
-}
-
-.pagination-label {
-    cursor: pointer;
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-color: #D9D9D9;
-    border-radius: 50%;
-    margin: 0 5px;
-}
-
-.pagination-input:checked+.pagination-label {
-    background-color: #84A178;
+.swiper-pagination {
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -94,7 +71,7 @@
 
     .customer-reviews-text {
         padding: 28px 80px;
-        color: #FCFCFC;
+        color: var(--color-font-bright);
         text-align: center;
         font-family: 'Montserrat';
         font-size: 12px;
