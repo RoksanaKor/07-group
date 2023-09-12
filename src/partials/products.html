@@ -14,12 +14,12 @@
                     />
                 </picture>
             <figcaption class="products__ice">
-                <p class="products__title">ice cream</p>
+                <h3 class="products__title">ice cream</h3>
                     <p class="products__descr">
                     Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural
                     stabilizer
                     </p>
-                <button class="products__btn" type="button" ice-cream-open>
+                <button data-modal-open="products" class="products__btn" type="button">
                     <svg width="40px" height="16px">
                         <use href="/src/images/icons.svg#icon-Arrow"></use>
                     </svg>
@@ -36,12 +36,12 @@
                     />
                 </picture>
             <figcaption class="products__coffe">
-                    <p class="products__title">ice coffee</p>
+                    <h3 class="products__title">ice coffee</h3>
                         <p class="products__descr">
                         Fragrant invigorating drink created from 100% natural ingredients without the use of
                         preservatives and flavor enhancers
                         </p>
-                <button class="products__btn" type="button" ice-cream-open>
+                <button data-modal-open="products" class="products__btn" type="button">
                 <svg width="40px" height="16px">
                     <use href="/src/images/icons.svg#icon-Arrow"></use>
                 </svg>
@@ -58,12 +58,12 @@
                     />
                 </picture>
             <figcaption class="products__milkshake">
-                    <p class="products__title">milkshakes</p>
+                    <h3 class="products__title">milkshakes</h3>
                         <p class="products__descr">
                         Sweet drinks based on milk and ice cream, supplemented with syrups, fruits, berries and
                         other sweets of your choice
                         </p>
-                <button class="products__btn" type="button" ice-cream-open>
+                <button data-modal-open="products" class="products__btn" type="button">
                     <svg width="40px" height="16px">
                         <use href="/src/images/icons.svg#icon-Arrow"></use>
                     </svg>
@@ -74,16 +74,16 @@
         </div>
     
     
-        <div class="backdrop is-hidden" ice-cream>
+        <div class="backdrop is-hidden" data-modal="products">
         <div class="modal">
     
-        <button type="button" class="modal__button" ice-cream-close>
+        <button data-modal-close="products" type="button" class="modal__button">
             <svg width="20" height="20">
                 <use href="/src/images/icons.svg#icon-Vector-1"></use>
             </svg>
         </button>
     
-        <p class="modal__headline">Chololate icecream</p>
+        <p class="modal__headline">Chocolate icecream</p>
             <picture>   
         <img
         class="modal__img"
@@ -115,7 +115,7 @@
         <div class="ingredients">
         <h2 class="ingredients__headline">Ingredients</h2>
         <ul>
-        <li class="ingredients__list"><span>Millk</span><span>100ml</span></li>
+        <li class="ingredients__list"><span>Milk</span><span>100ml</span></li>
         <li class="ingredients__list"><span>Belgian chocolate</span><span>20g</span></li>
         <li class="ingredients__list"><span>Cream</span><span>150 ml</span></li>
         <li class="ingredients__list"><span>Cocoa powder</span><span>30g</span></li>
