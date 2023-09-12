@@ -6,7 +6,7 @@
         
     <div class="products__list">
         <figure class="products__space">
-                <picture class="products__picture-overlay products__picture-overlay__one">
+                <picture class="products__picture-overlay products__picture-overlay__first">
                     <img
                     src="/src/images/product-1.jpg"
                     alt="ice-cream"
@@ -28,7 +28,7 @@
         </figure>
     
         <figure class="products__space">
-                <picture class="products__picture-overlay products__picture-overlay__two">
+                <picture class="products__picture-overlay products__picture-overlay__second">
                     <img
                     src="/src/images/product-2.jpg"
                     alt="ice-cream"
@@ -50,7 +50,7 @@
         </figure>
     
         <figure class="products__space">
-                <picture class="products__picture-overlay products__picture-overlay__three">
+                <picture class="products__picture-overlay products__picture-overlay__third">
                     <img
                     src="/src/images/product-3.jpg"
                     alt="ice-cream"
@@ -73,13 +73,13 @@
         </div>
         </div>
     
-    
+    /*modal window*/
         <div class="backdrop is-hidden" data-modal="products">
         <div class="modal">
     
         <button data-modal-close="products" type="button" class="modal__button">
             <svg width="20" height="20">
-                <use href="/src/images/icons.svg#icon-Vector-1"></use>
+                <use href="/src/images/icons.svg#icon-Vector-2"></use>
             </svg>
         </button>
     
@@ -123,6 +123,7 @@
         <li class="ingredients__list"><span>Vanilla sugar</span><span>10g</span></li>
         </ul>
         </div>
+
         <form name="modal__signup-form">
         <label class="modal__label">
         <input
@@ -150,3 +151,5 @@
         </div>
         </div>
         </section>
+
+        <scrpit src="/src/products.js"></scrpit>
