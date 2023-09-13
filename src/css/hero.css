@@ -10,14 +10,14 @@ img {
 .hero-section {
   background-color: var(--color-background);
   position: relative;
-  background-image: url('/hero/dots-mob1x.png');
+  background-image: url('../images/hero/dots-mob1x.png');
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero-section {
-    background-image: url(/hero/dots-mob2x.png);
+    background-image: url(../images/hero/dots-mob2x.png);
   }
 }
 
@@ -190,13 +190,13 @@ a {
     padding: 0 32px;
   }
   .hero-section {
-    background-image: url('/hero/dots-tab1x.png');
+    background-image: url('../images/hero/dots-tab1x.png');
     background-repeat: no-repeat;
     background-position: bottom left;
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero-section {
-      background-image: url(/hero/dots-tab2x.png);
+      background-image: url(../images/hero/dots-tab2x.png);
     }
   }
   .hero-content {
@@ -255,14 +255,14 @@ a {
 
 @media screen and (min-width: 1200px) {
   .hero-section {
-    background-image: url('/hero/dots-desk1x.png');
+    background-image: url('../images/hero/dots-desk1x.png');
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: auto 383px;
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero-section {
-      background-image: url(/hero/dots-desk2x.png);
+      background-image: url(../images/hero/dots-desk2x.png);
     }
   }
   .hero-container {
