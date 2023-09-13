@@ -1,0 +1,117 @@
+
+body {
+    overflow-x: hidden;
+}
+
+.customer-reviews {
+    position: relative;
+    margin: auto;
+}
+
+.customer-reviews-customer {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.customer-reviews-ractangle {
+    width: 280px;
+    height: 256px;
+    border-radius: 10px;
+    background: var(--color-background);
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+.customer-reviews-text {
+    padding: 35px 39px;
+    color: var(--color-font-bright);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 255%;
+    font-weight: normal;
+}
+
+.customer-reviews-name {
+    color: var(--color-font-dark);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 186%;
+    padding-top: 32px;
+    margin: 0;
+}
+
+.swiper-pagination {
+    position: absolute;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .customer-reviews {
+        padding-top: 100px;
+    }
+
+    .customer-reviews-ractangle {
+        width: 705px;
+        height: 138px;
+        border-radius: 24px;
+    }
+
+    .customer-reviews-text {
+        padding: 28px 80px;
+        color: var(--color-font-bright);
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        line-height: 255%;
+        font-weight: normal;
+    }
+
+    .customer-reviews-name {
+        font-size: 16px;
+    }
+
+    .slideshow-pagination {
+        margin-top: 32px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .customer-reviews-ractangle {
+        width: 968px;
+        height: 138px;
+        border-radius: 24px;
+    }
+
+    .customer-reviews-text {
+        padding: 43px 109px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 186%;
+        letter-spacing: 0.64px;
+    }
+
+    .customer-reviews-name {
+        font-size: 16px;
+    }
+
+    .slideshow-pagination {
+        margin-top: 32px;
+    }
+
+}
+
