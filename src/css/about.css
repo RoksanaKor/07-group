@@ -266,6 +266,9 @@ ul {
     background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* modal */
+.is-hidden {
+  display: none;
+}
 .about_modal_close-btn {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0);
