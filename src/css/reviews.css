@@ -1,3 +1,4 @@
+
 body {
     overflow-x: hidden;
 }
@@ -41,20 +42,24 @@ body {
 
 .customer-reviews-name {
     color: var(--color-font-dark);
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 186%;
-    padding-top: 32px;
-    margin: 0;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 186%;
+        padding-top: 32px;
+        margin: 0;
+        position: relative;
 }
 
-.swiper-pagination {
-    position: absolute;
-    top: 32px;
-    left: 50%;
-    transform: translateX(-50%);
+.swiper-pagination-bullet {
+    position: relative;
+    bottom: -64px;
+    display: inline-block;
+    width: 12px;
+        height: 12px;
+        background-color: var(--color-inactive-slider);
+        margin: 0 12px;
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -83,9 +88,9 @@ body {
         font-size: 16px;
     }
 
-    .slideshow-pagination {
-        margin-top: 32px;
-    }
+    .swiper-pagination-bullet {
+        bottom: 12px;
+        }
 }
 
 @media (min-width: 1200px) {
@@ -108,8 +113,9 @@ body {
         font-size: 16px;
     }
 
-    .slideshow-pagination {
-        margin-top: 32px;
-    }
+    .swiper-pagination-bullet {
+         bottom: -200px;
+   }
 
 }
+
