@@ -227,7 +227,7 @@
   visibility: hidden;
   pointer-events: none;
 }
-.contacts-location-header {
+/* .contacts-location-header {
 }
 .contacts-map {
 }
@@ -241,5 +241,5 @@
 }
 .contacts-label-modal {
 }
-.contacts-input {
+.contacts-input {} */
 
