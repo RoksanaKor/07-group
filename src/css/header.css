@@ -9,7 +9,13 @@
     background-color: var(--color-background);
     position: relative;
    }
-
+.header-backdrop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media screen and (max-width: 767px){
    
@@ -57,9 +63,14 @@
     display: none;
    }
    .js-menu-container.is-open {
-    display: flex;
-    flex-direction: column;
     background-color: var(--color-background);
+    flex-direction: column;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;    
+    z-index: 1;
+    inset: 0;
    }
    .js-open-menu {
     stroke: black;
@@ -130,16 +141,16 @@ font-weight: 600;
   
 
     .modal-button{
-        fill:var(--color-font-bright);
-          width: 30px;
-          height: 30px;
-          border:none;
-          background-color:var(--color-background);
-          cursor: pointer;
-          padding: 5px;
-          margin: 8px 8px 0 0;
-          position: absolute;
-          inset: 0 0 auto auto;
+        fill: var(--color-font-bright);
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-background);
+    cursor: pointer;
+    border: none;
+    margin: 8px 8px 0 0;
+    padding: 5px;
+    position: absolute;
+    inset: 0 0 auto auto;
       }
       
       .header-navigation{

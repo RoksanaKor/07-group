@@ -159,20 +159,20 @@
 .backdrop {
   position: fixed;
   inset: 0;
-  width: 100%;
+  width: 100vw;
   /* background-color: var(--background-backdrop); */
 }
 
 .backdrop-11 {
   position: fixed;
   inset: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 .backdrop-12 {
   position: fixed;
   inset: 0;
-  width: 100%;
+  width: 100vw;
 }
 
 .modal-11 {
