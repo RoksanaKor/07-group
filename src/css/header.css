@@ -4,19 +4,11 @@
     padding: 0;
   }
  
-
-
-  .header-container{
+.header-container{
   
     background-color: var(--color-background);
     position: relative;
    }
-
-
-
-
-
-
 
 
 @media screen and (max-width: 767px){
@@ -51,33 +43,27 @@
     }
 
     .header-menu-toggle-button{
-       
-        
-        justify-content: center;
-   
+       justify-content: center;
         background-color: var(--color-background);
         stroke: var(--color-font-bright);
         stroke-width: 2px;
         border: none;
-        padding-top: 15px
-        ;
+        padding-top: 15px;
 
     }
-    .js-menu-container {
-        display: none;
-       }
-       .js-menu-container.is-open {
-        display: flex;
-        flex-direction: column;
-        background-color: var(--color-font-bright);
-       
-       }
-       .js-open-menu {
-        stroke: black;
-        fill: black;
-       }
-    }
-
+  
+   .js-menu-container {
+    display: none;
+   }
+   .js-menu-container.is-open {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-font-bright);
+   }
+   .js-open-menu {
+    stroke: black;
+    fill: black;
+   }
 .menu-toggle{
     display: flex;
   background: none;
@@ -103,26 +89,16 @@
             font-weight: 700;
             
         }
-        .header-close-button{
+        .header-button-close{
          height: 32px;
          width: 32px;
          justify-content: center;}
    
         
-   .button-modal{
-    fill:var(--color-font-bright);
-      width: 30px;
-      height: 30px;
-      border:none;
-      background-color:var(--color-background);
-      cursor: pointer;
-      padding: 5px;
-      margin: 8px 8px 0 0;
-      position: absolute;
-      inset: 0 0 auto auto;
-  }
 
   .header-buy-now{
+    width: 152px;
+    height: 42px;
   
     background-color:var(--color-default);
 border-radius: 10px;
@@ -139,6 +115,7 @@ padding-right: 51px;
 }
 
 .header-arrow{
+    text-align: center;
    vertical-align: middle;}
 
    .header-hamburger{
@@ -146,9 +123,30 @@ padding-right: 51px;
     text-align: center;
     
     }
+    .header-button-close{
+        height: 32px;
+        width: 32px;
+        justify-content: center;}
+  
 
-
+    .modal-button{
+        fill:var(--color-font-bright);
+          width: 30px;
+          height: 30px;
+          border:none;
+          background-color:var(--color-background);
+          cursor: pointer;
+          padding: 5px;
+          margin: 8px 8px 0 0;
+          position: absolute;
+          inset: 0 0 auto auto;
+      }
       
+      .header-navigation{
+        display:none;
+    }
+    
+    }
 
        @media screen and (min-width: 480px) and (max-width: 767px){
     .container{
@@ -158,94 +156,15 @@ padding-right: 51px;
     background-color:var(--color-background);
     color:var(--color-background);
     }
-
+       }
     @media screen and (min-width: 768px) and (max-width: 1199px){
         .container{
             width: 100%;
             background-color:var(--color-background);
             color:var(--color-background);
-            max-width: 1158px;
+           
             padding: 0px;
             margin:0 auto;
         }
     }
  
-}
-
-
-
-
-
-
- 
-
-
-
-  
-
-.header-navigation{
-    display:none;
-}
-
-.header-nav-description{
-  
-    list-style: none;
-    color:var(--color-font-dark);
-}
-/*/
-.header-buy-now{
-  
-    background-color:var(--color-default);
-border-radius: 10px;
-border: 0px solid transparent;
-text-align: center;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 600;
-padding-top: 12px;
-padding-bottom: 12px;
-padding-left: 36px;
-padding-right: 51px;
-
-}
-
-.header-arrow{
-   vertical-align: middle;}
-
-   .header-hamburger{
-    list-style: none;
-    text-align: center;
-    
-    }
-    .header-hamburger-button{
-        color: var(--color-font-bright);
-        font-size: 32px;
-    font-weight: 700;
-    }
-    .header-hamburger-button-w{
-        color:black;
-        font-size: 32px;
-        font-weight: 700;
-        
-    }
-    .header-close-button{
-        color:var(--color-font-bright);
-
-
-   }
-
-   .button-modal{
-  fill:var(--color-font-bright);
-    width: 30px;
-    height: 30px;
-    border:none;
-    background-color:var(--color-background);
-    cursor: pointer;
-    padding: 5px;
-    margin: 8px 8px 0 0;
-    position: absolute;
-    inset: 0 0 auto auto;
-
-   }
-
-   /*/
