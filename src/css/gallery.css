@@ -3,7 +3,7 @@ body {
 }
 
 .gallery {
-    background-image: url('../images/backgroud-mobile.jpg');
+    background-image: url('../images/background-mobile.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
