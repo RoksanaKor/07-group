@@ -2,9 +2,10 @@
 
 .contacts-container {
   width: 320px;
+  margin: auto;
 }
 .contacts-contacts {
-  background-color: var(--color-background);
+  /* background-color: var(--color-background); */
   min-height: 1487px;
 }
 .contacts-cities {
@@ -31,7 +32,9 @@
   padding: 0;
 }
 .contacts-fake-btns-cities {
-  font-family: sans-serif;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
   display: inline-flex;
   box-sizing: content-box;
   border: none;
@@ -46,27 +49,23 @@
   margin-bottom: 20px;
 }
 .contacts-city {
-  font-family: sans-serif;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
   list-style: none;
   color: var(--color-font-dark);
   margin-bottom: 8px;
 }
 .contacts-address {
-  font-family: sans-serif;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
   list-style: none;
   color: var(--color-body-3);
-  margin-bottom: 8px;
+  margin-bottom: 24px;
+  cursor: pointer;
 }
-.contacts-address ::after {
-  content: '';
-  width: 100%;
-  height: 4px;
-  display: block;
-  background-color: var(--color-body-3);
-  position: relative;
-  top: 21px;
-  border-radius: 2px;
-}
+
 .contacts-address::after {
   content: '';
   width: 100%;
@@ -77,13 +76,17 @@
   top: 8px;
 }
 .contacts-mon-fri {
-  font-family: sans-serif;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
   list-style: none;
   color: var(--color-disabled);
   margin-bottom: 8px;
 }
 .contacts-sat-sun {
-  font-family: sans-serif;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
   list-style: none;
   color: var(--color-disabled);
 }
@@ -101,7 +104,9 @@
   margin-bottom: 8px;
 }
 .contacts-link {
-  font-family: sans-serif;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
   color: var(--color-font-dark);
   text-decoration: none;
 }
@@ -120,7 +125,9 @@
   cursor: pointer;
 } */
 .contacts-btn-modal-11 {
-  font-family: sans-serif;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
   width: 196px;
   height: 42px;
   background-color: var(--color-default);
@@ -134,7 +141,9 @@
   border: 2px solid var(--color-default);
 }
 .contacts-btn-modal-12 {
-  font-family: sans-serif;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
   width: 196px;
   height: 42px;
   background-color: var(--color-default);
@@ -173,7 +182,7 @@
   margin-inline: auto;
   /* transform: translate(-50%, -50%); */
   width: 280px;
-  min-height: 365px;
+  height: 674px;
   background-color: var(--color-font-bright);
   border-radius: 10px;
   border: 2px solid var(--color-default);
@@ -183,9 +192,10 @@
   position: absolute;
   inset: 20px;
   width: 280px;
+  max-height: 365px;
   margin-inline: auto;
   /* transform: translate(-50%, -50%); */
-  min-height: 60vh;
+  /* min-height: 60vh; */
   overflow-y: scroll;
   background-color: var(--color-font-bright);
   border-radius: 10px;
@@ -204,10 +214,8 @@
   cursor: pointer;
 }
 
-.contacts-x-button{
-fill: var(--color-font-dark);
-
-
+.contacts-x-button {
+  fill: var(--color-font-dark);
 }
 .is-hidden-11 {
   opacity: 0;
@@ -240,19 +248,106 @@ fill: var(--color-font-dark);
   visibility: hidden;
   pointer-events: none;
 }
-/* .contacts-location-header {
+.contacts-location-header {
+  display: flex;
+  width: 166px;
+  flex-wrap: nowrap;
+  margin-top: 28px;
+  margin-left: 52px;
+  font-family: Seymour One;
+  font-size: 16px;
+  font-weight: 700;
+}
+.contacts-modal-location-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 .contacts-map {
+  width: 224px;
+  height: 199px;
 }
-.contacts-map-open {
+.contacts-modal-location-button {
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
+  width: 134px;
+  height: 42px;
+  background-color: var(--color-default);
+  border-radius: 10px;
+  border: none;
+  margin: auto;
 }
-.contacts-form-header {
+.contacts-modal-location-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.contacts-franchise-header {
+  display: flex;
+  align-items: center;
+  width: 221px;
+  margin-top: 28px;
+  margin-left: 29px;
+  font-family: Seymour One;
+  font-size: 16px;
+  font-weight: 700;
+}
+.contacts-modal-text {
+  display: flex;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 400;
+  width: 222px;
+  height: 240px;
+  margin: 20px auto;
 }
 .contacts-modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 24px auto;
 }
 .contacts-labels {
+  width: 224px;
+  height: 32px;
+  background-color: var(--color-font-bright);
 }
-.contacts-label-modal {
+/* .contacts-label-modal {
+  
+} */
+.contacts-input {
+  width: 224px;
+  height: 32px;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 400;
+  padding-left: 10px;
+  background-color: var(--color-default);
+  border: 1px solid;
+  border-radius: 10px;
 }
-.contacts-input {} */
-
+.contacts-textarea-modal {
+  width: 224px;
+  height: 64px;
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 400;
+  padding-left: 10px;
+  background-color: var(--color-default);
+  border: 1px solid;
+  border-radius: 10px;
+}
+.contacts-modal-franchise-button {
+  font-family: Montserrat;
+  font-size: medium;
+  font-weight: 600;
+  width: 134px;
+  height: 42px;
+  background-color: var(--color-default);
+  border-radius: 10px;
+  border: none;
+  margin: 24px auto;
+}
