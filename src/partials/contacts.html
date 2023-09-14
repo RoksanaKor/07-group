@@ -110,82 +110,88 @@
         <div class="contacts-list-btn">
           <button
             type="button"
-            class="contacts-btn-modal-11"
-            data-modal-open-11
+            class="contacts-btn-modal-12"
+            data-modal-open="our-location"
           >
-            Our Locations >
+            Our locations >
           </button>
+          <div class="backdrop-12 is-hidden" data-modal="our-location">
+            <div class="modal-12">
+              <span class="contacts-form-header">Our Locations</span>
+              <div class="contacts-modal-forms">
+                <form class="contacts-modal-form" name="comment" autocomplete="on" required>
+                 <label class="contacts-label-modal" for="name">
+                   <input
+                     class="contacts-input"
+                     type="user_name"
+                     name="name"
+                     id="user_name"
+                     placeholder="Name"
+                     required
+                     />
+                  </label>
+                  <label class="label-modal" for="phone"
+                  > <input
+                     class="contacts-input"
+                     type="number"
+                     name="phone"
+                     id="phone"
+                     placeholder="Phone"
+                     required
+                    />
+                  </label>
+                  <label class="label-modal" for="email"
+                   ><input
+                     class="contacts-input"
+                     type="email"
+                     name="email"
+                     id="email"
+                     placeholder="E-mail"
+                     required
+                  />
+                  </label>
+                  <label class="label-modal" for="comment" novalidate>
+                    <textarea
+                     class="textarea-modal"
+                     name="comment"
+                     rows="8"
+                     placeholder="comment"
+                  > </textarea>
+                  </label>
+                </form>
+              </div>
+                  <button type="button" class="close-btn-12" data-modal-close="our-location">
+                    <svg class="contacts-x-button" width="11" height="11">
+                      <use href="./images/icons.svg#icon-Vector-2"></use>
+                    </svg>
+                  </button>
+            </div>
+          </div>
         </div>
       </li>
       <li class="contacts-list-btn">
         <div class="contacts-list-btn">
           <button
             type="button"
-            class="contacts-btn-modal-12"
-            data-modal-open-12
-          >
+            class="contacts-btn-modal-11"
+            data-modal-open="franchise">
             Franchise >
           </button>
+          <div class="backdrop-11 is-hidden" data-modal="franchise">
+            <div class="modal-11">
+              <span class="contacts-location-header">Franchise</span>
+              <figcaption class="contacts-map"></figcaption>
+              <button type="button" class="contacts-map-open"></button>
+              <button type="button" class="close-btn-11" data-modal-close="franchise">
+                <svg class="contacts-x-button" width="11" height="11">
+                  <use href="./images/icons.svg#icon-Vector-2"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
         </div>
       </li>
     </ul>
   </section>
 </div>
-<div class="backdrop-11 is-hidden" data-modal-11>
-  <div class="modal-11">
-    <span class="contacts-location-header">Our Locations</span>
-    <figcaption class="contacts-map"></figcaption>
-    <button type="button" class="contacts-map-open"></button>
-    <button type="button" class="close-btn-11" data-modal-close-11>
-      X
-    </button>
-  </div>
-</div>
-<div class="backdrop-12 is-hidden" data-modal-12>
-  <div class="modal-12">
-    <span class="contacts-form-header">Our Locations</span>
-    <div class="contacts-modal-forms">
-      <form class="contacts-modal-form" name="comment" autocomplete="on" required>
-       <label class="contacts-label-modal" for="name">
-         <input
-           class="contacts-input"
-           type="user_name"
-           name="name"
-           id="user_name"
-           placeholder="Name"
-           required
-           />
-        </label>
-        <label class="label-modal" for="phone"
-        > <input
-           class="contacts-input"
-           type="number"
-           name="phone"
-           id="phone"
-           placeholder="Phone"
-           required
-          />
-        </label>
-        <label class="label-modal" for="email"
-         ><input
-           class="contacts-input"
-           type="email"
-           name="email"
-           id="email"
-           placeholder="E-mail"
-           required
-        />
-        </label>
-        <label class="label-modal" for="comment" novalidate>
-          <textarea
-           class="textarea-modal"
-           name="comment"
-           rows="8"
-           placeholder="comment"
-        > </textarea>
-        </label>
-      </form>
-    </div>
-        <button type="button" class="close-btn-12" data-modal-close-12>X</button>
-  </div>
-</div>
+
