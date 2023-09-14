@@ -15,7 +15,8 @@
    
     .header-wrapper{
         display: flex;
-        gap: 208px;
+    margin-right: 17px;
+        justify-content:space-between;
        
         }
     .header-wrapper-logo{
@@ -58,7 +59,7 @@
    .js-menu-container.is-open {
     display: flex;
     flex-direction: column;
-    background-color: var(--color-font-bright);
+    background-color: var(--color-background);
    }
    .js-open-menu {
     stroke: black;
@@ -99,6 +100,8 @@
   .header-buy-now{
     width: 152px;
     height: 42px;
+    margin: auto;
+    align-items: center;
   
     background-color:var(--color-default);
 border-radius: 10px;
@@ -107,10 +110,7 @@ text-align: center;
 font-family: Montserrat;
 font-size: 14px;
 font-weight: 600;
-padding-top: 12px;
-padding-bottom: 12px;
-padding-left: 36px;
-padding-right: 51px;
+
 
 }
 
