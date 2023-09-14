@@ -1,14 +1,30 @@
-@media screen and (max-width:767px){
-    .header-container{
-        width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
-    background-color:var(--color-background);
-    color:var(--color-background);
-        }
-    }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+
+  .header-container{
+  
+    background-color: var(--color-background);
+    position: relative;
+   }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+   
     .header-wrapper{
         display: flex;
+        gap: 208px;
+       
         }
     .header-wrapper-logo{
         display: flex;
@@ -22,15 +38,31 @@
        fill:var(--color-default);
     }
     .header-logo{
+     
+
     font-family: Seymour One;
     font-size: 14.874px;
     text-transform:0.7px var(--color-default);
     -webkit-text-stroke: 0.7px var(--color-default);
     letter-spacing: -1.487px;
     font-weight: 400;
+    color: var(--color-background);
     
     }
-    
+
+    .header-menu-toggle-button{
+       
+        
+        justify-content: center;
+   
+        background-color: var(--color-background);
+        stroke: var(--color-font-bright);
+        stroke-width: 2px;
+        border: none;
+        padding-top: 15px
+        ;
+
+    }
     .js-menu-container {
         display: none;
        }
@@ -38,14 +70,87 @@
         display: flex;
         flex-direction: column;
         background-color: var(--color-font-bright);
+       
        }
        .js-open-menu {
         stroke: black;
         fill: black;
        }
+    }
+
+.menu-toggle{
+    display: flex;
+  background: none;
+    border: none; 
+    max-width: 32px;
+       
+}
+
+    .header-hamburger{
+        background-color:var(--color-background) ;
+        list-style: none;
+        text-align: center;
+        
+        }
+        .header-hamburger-button{
+            color: var(--color-font-bright);
+            font-size: 32px;
+        font-weight: 700;
+        }
+        .header-hamburger-button-w{
+            color:black;
+            font-size: 32px;
+            font-weight: 700;
+            
+        }
+        .header-close-button{
+         height: 32px;
+         width: 32px;
+         justify-content: center;}
+   
+        
+   .button-modal{
+    fill:var(--color-font-bright);
+      width: 30px;
+      height: 30px;
+      border:none;
+      background-color:var(--color-background);
+      cursor: pointer;
+      padding: 5px;
+      margin: 8px 8px 0 0;
+      position: absolute;
+      inset: 0 0 auto auto;
+  }
+
+  .header-buy-now{
+  
+    background-color:var(--color-default);
+border-radius: 10px;
+border: 0px solid transparent;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 600;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 36px;
+padding-right: 51px;
+
+}
+
+.header-arrow{
+   vertical-align: middle;}
+
+   .header-hamburger{
+    list-style: none;
+    text-align: center;
+    
+    }
 
 
-@media screen and (min-width:768px){
+      
+
+       @media screen and (min-width: 480px) and (max-width: 767px){
     .container{
         width: 100%;
     margin: 0 auto;
@@ -54,7 +159,7 @@
     color:var(--color-background);
     }
 
-    @media screen and (min-width:1200px){
+    @media screen and (min-width: 768px) and (max-width: 1199px){
         .container{
             width: 100%;
             background-color:var(--color-background);
@@ -66,63 +171,28 @@
     }
  
 }
-.header-wrapper{
-    display: flex;
-    }
-.header-wrapper-logo{
-    display: flex;
-    margin-top: 14px;
-    margin-left: 20px;
-    align-items: flex-end;
-  }
-
-.header-logo-ice-cream{
-   border-color:var(--color-default);
-   fill:var(--color-default);
-}
-.header-logo{
-font-family: Seymour One;
-font-size: 14.874px;
-text-transform:0.7px var(--color-default);
--webkit-text-stroke: 0.7px var(--color-default);
-letter-spacing: -1.487px;
-font-weight: 400;
-
-}
 
 
 
 
-.menu-toggle{
-    display: flex;
-    margin-right: 8px;
-    background: none;
-    border: none;
 
-}
-.header-menu-toggle-button{
-    max-width: 32px;
-    max-height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-background);
-    stroke: var(--color-font-bright);
-    stroke-width: 2px;
-    border: none;
+
+ 
+
+
+
   
-    
-    
-}
+
 .header-navigation{
     display:none;
 }
+
 .header-nav-description{
   
     list-style: none;
     color:var(--color-font-dark);
 }
-
+/*/
 .header-buy-now{
   
     background-color:var(--color-default);
@@ -177,3 +247,5 @@ padding-right: 51px;
     inset: 0 0 auto auto;
 
    }
+
+   /*/
