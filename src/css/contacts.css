@@ -351,3 +351,18 @@
   border: none;
   margin: 24px auto;
 }
+/* @media and (min-width: 480px) {
+  .contacts-container {
+    min-width: 480px;
+    max-width: 768px;
+    height: 625px;
+  }
+  .contacts-cities {
+    flex-direction: row;
+    margin-top: -299px;
+  }
+  .contacts-cards-cities {
+    width: 224px;
+    height: 537px;
+  }
+} */
