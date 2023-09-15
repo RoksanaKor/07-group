@@ -1,0 +1,185 @@
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.advantages {
+  background-color: #84a178;
+}
+
+.advantages-container-icons::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: #f8d24e;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.advantages-container-icons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.advantages-title {
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  color: white;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.4px;
+}
+
+.advantages-title,
+.advantages-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------ MOBILE ------ */
+@media screen and (max-width: 479px) {
+  .advantages-container {
+    /* max-width: 250px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages-items {
+    padding-top: 40px;
+    max-width: 200px;
+  }
+
+  .advantages-title {
+    padding-top: 23px;
+    padding-bottom: 16px;
+  }
+}
+
+/* ------ MOBILE ------ */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .advantages-container {
+    /* max-width: 250px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+  }
+
+  .advantages-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .advantages-items {
+    padding-top: 40px;
+    max-width: 200px;
+  }
+
+  .advantages-title {
+    padding-top: 23px;
+    padding-bottom: 16px;
+  }
+}
+
+/* ------ TABLET ------ */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .advantages-container {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
+  }
+  .advantages-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .advantages-items {
+    text-align: center;
+  }
+  .advantages-items {
+    max-width: 150px;
+    padding-top: 90px;
+  }
+
+  .advantages-title {
+    padding-top: 23px;
+    padding-bottom: 16px;
+    font-size: 48px;
+  }
+
+  .advantages-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.36px;
+  }
+}
+
+/* ------ DESKTOP ------ */
+@media (min-width: 1200px) {
+  .advantages-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 150px;
+  }
+
+  .advantages-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .advantages-items {
+    text-align: center;
+    padding-top: 67px;
+    max-width: 280px;
+  }
+
+  .advantages-title {
+    padding-top: 23px;
+    padding-bottom: 16px;
+    font-size: 58px;
+    line-height: normal;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+  }
+
+  .advantages-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.16px;
+    letter-spacing: 0.32px;
+  }
+}
