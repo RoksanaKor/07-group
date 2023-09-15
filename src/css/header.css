@@ -57,9 +57,15 @@
     display: none;
    }
    .js-menu-container.is-open {
+   
+    border: 2px solid var(--color-font-bright);
+  height: 568px;
     display: flex;
     flex-direction: column;
-    background-color: var(--color-background);
+   background-color: var(--color-background);
+
+ 
+
    }
    .js-open-menu {
     stroke: black;
@@ -83,11 +89,13 @@
             color: var(--color-font-bright);
             font-size: 32px;
         font-weight: 700;
+        line-height: 2.2;
         }
         .header-hamburger-button-w{
             color:black;
             font-size: 32px;
             font-weight: 700;
+            line-height: 2.2;
             
         }
         .header-button-close{
@@ -98,18 +106,20 @@
         
 
   .header-buy-now{
+   
     width: 152px;
     height: 42px;
     margin: auto;
     align-items: center;
   
-    background-color:var(--color-default);
+background-color:var(--color-default);
 border-radius: 10px;
 border: 0px solid transparent;
 text-align: center;
 font-family: Montserrat;
 font-size: 14px;
 font-weight: 600;
+
 
 
 }
@@ -145,6 +155,10 @@ font-weight: 600;
       .header-navigation{
         display:none;
     }
+   .header-wrapper-modal {
+   
+   
+   }
     
     }
 
