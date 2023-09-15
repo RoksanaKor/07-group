@@ -9,7 +9,13 @@
     background-color: var(--color-background);
     position: relative;
    }
-
+.header-backdrop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media screen and (max-width: 767px){
    
@@ -58,15 +64,11 @@
     display: none;
    }
    .js-menu-container.is-open {
-   
     border: 2px solid var(--color-font-bright);
   height: 568px;
     display: flex;
     flex-direction: column;
    background-color: var(--color-background);
-
-
- 
 
    }
    .js-open-menu {
@@ -142,16 +144,16 @@ font-weight: 600;
   
 
     .modal-button{
-        fill:var(--color-font-bright);
-          width: 30px;
-          height: 30px;
-          border:none;
-          background-color:var(--color-background);
-          cursor: pointer;
-          padding: 5px;
-          margin: 8px 8px 0 0;
-          position: absolute;
-          inset: 0 0 auto auto;
+        fill: var(--color-font-bright);
+    width: 30px;
+    height: 30px;
+    background-color: var(--color-background);
+    cursor: pointer;
+    border: none;
+    margin: 8px 8px 0 0;
+    padding: 5px;
+    position: absolute;
+    inset: 0 0 auto auto;
       }
       
       .header-navigation{

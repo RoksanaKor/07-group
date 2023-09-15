@@ -5,4 +5,4 @@ import('./products.js');
 import('./ingredients.js');
 import('./read-more.js');
 import('./our-location.js');
-
+import('./js/swiper-slider');

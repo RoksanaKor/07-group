@@ -1,11 +1,10 @@
-
 body {
     overflow-x: hidden;
 }
 
 .customer-reviews {
     position: relative;
-    margin: auto;
+        margin: auto;
 }
 
 .customer-reviews-customer {
@@ -20,7 +19,7 @@ body {
 
 .customer-reviews-ractangle {
     width: 280px;
-    height: 256px;
+    height: auto;
     border-radius: 10px;
     background: var(--color-background);
     display: flex;
@@ -34,10 +33,11 @@ body {
     padding: 35px 39px;
     color: var(--color-font-bright);
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 12px;
     line-height: 255%;
     font-weight: normal;
+    min-width: 202px;
 }
 
 .customer-reviews-name {
@@ -52,70 +52,103 @@ body {
         position: relative;
 }
 
+.swiper-container {
+  padding-bottom: 60px;
+  margin-bottom: 413px
+}
+
 .swiper-pagination-bullet {
-    position: relative;
-    bottom: -64px;
-    display: inline-block;
     width: 12px;
         height: 12px;
         background-color: var(--color-inactive-slider);
-        margin: 0 12px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--color-background);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 12px;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  
+.swiper-container {
+  margin-bottom: 409px
+}
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
-
+    
     .customer-reviews {
         padding-top: 100px;
     }
 
-    .customer-reviews-ractangle {
+        .customer-reviews-ractangle {
         width: 705px;
-        height: 138px;
         border-radius: 24px;
-    }
+        }
 
     .customer-reviews-text {
-        padding: 28px 80px;
-        color: var(--color-font-bright);
-        text-align: center;
-        font-family: 'Montserrat';
-        font-size: 12px;
-        line-height: 255%;
-        font-weight: normal;
-    }
+     padding: 28px 80px;
+                    color: var(--color-font-bright);
+                    text-align: center;
+                    font-family: 'Montserrat';
+                    font-size: 12px;
+                    line-height: 255%;
+                    font-weight: normal;
+                    min-width: 545px;
+                }
 
     .customer-reviews-name {
         font-size: 16px;
     }
 
-    .swiper-pagination-bullet {
-        bottom: 12px;
-        }
+                .swiper-horizontal>.swiper-pagination-bullets,
+                .swiper-pagination-bullets.swiper-pagination-horizontal,
+                .swiper-pagination-custom,
+                .swiper-pagination-fraction {
+                    bottom: 32px;
+                }
+
+  .swiper-container {
+  padding-bottom: 80px;
+  margin-bottom: 379px
+}
 }
 
 @media (min-width: 1200px) {
 
     .customer-reviews-ractangle {
         width: 968px;
-        height: 138px;
-        border-radius: 24px;
+            border-radius: 24px;
     }
 
     .customer-reviews-text {
-        padding: 43px 109px;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 186%;
-        letter-spacing: 0.64px;
-    }
+            padding: 43px 109px;
+            font-size: 16px;
+                font-weight: 500;
+                line-height: 186%;
+                letter-spacing: 0.64px;
+                min-width: 750px;
+        }
 
-    .customer-reviews-name {
-        font-size: 16px;
-    }
+        .customer-reviews-name {
+            font-size: 16px;
+        }
 
-    .swiper-pagination-bullet {
-         bottom: -200px;
-   }
+        .swiper-horizontal>.swiper-pagination-bullets,
+        .swiper-pagination-bullets.swiper-pagination-horizontal,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 32px;
+        }
 
+  .swiper-container {
+  padding-bottom: 100px;
+  margin-bottom: 228px
 }
-
+}

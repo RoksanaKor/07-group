@@ -15,3 +15,8 @@
  --color-contacts-background: #fff;
  --color-stroke: #E1E1E1;
  --color-stroke-footer: #7A7A7A;
+}
+
+body {
+ background-color: var(--color-background);
+}
