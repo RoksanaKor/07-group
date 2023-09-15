@@ -15,12 +15,6 @@ img {
   background-position: bottom right;
 }
 
-@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  .hero-section {
-    background-image: url('../images/hero/dots-mob2x.png');
-  }
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -193,11 +187,6 @@ a {
     background-image: url('../images/hero/dots-tab1x.png');
     background-repeat: no-repeat;
     background-position: bottom left;
-  }
-  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-    .hero-section {
-      background-image: url('../images/hero/dots-tab2x.png');
-    }
   }
   .hero-content {
     display: flex;
